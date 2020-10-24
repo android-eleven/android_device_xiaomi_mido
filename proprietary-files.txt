@@ -767,7 +767,8 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c5
 vendor/lib64/libdpmqmihal.so|24b4b7ece0f0ba468e59d2ddcdaa62733635216b
 
 # DPM - from oneplus8 - qssi-user-11-RP1A.201005.001-2009051300-release-keys
-system_ext/lib64/libdpmframework.so|67ebd736333ae7158632735e3db06a4f9664f6a6
+system_ext/lib/libdpmframework.so|ef971c19c4bc27dd00e565db18ea7db39086db44
+system_ext/lib64/libdpmframework.so|a5cb575638ba1fde2d5dd5c44407fc9a49d4fdf8
 
 # DRM - from LA.UM.8.6.2.r1-08100-89xx.0
 vendor/bin/qseecomd|b6b1b78a4dc7085c2f49d40072094152fb2aecc5
