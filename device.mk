@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-aosap
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
     libvulkan
 
 # Device-specific settings
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     XiaomiDoze
 
 # DRM
@@ -263,7 +263,7 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.xiaomi_mido
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service.xiaomi_mido
 
 # Media
@@ -373,11 +373,11 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
 
 # Touch features
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi_mido
 
 # Trust HAL
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
 # USB HAL
